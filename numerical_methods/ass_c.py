@@ -70,7 +70,7 @@ else:
     print("The system does not have a unique solution.")
 
 # 3. Condition Number and Hilbert Comparison
-cond_A = cond(A)
+cond_A = np.max(eigenvalues_A) / np.min(eigenvalues_A)
 hilbert_5 = hilbert(5)
 cond_hilbert = cond(hilbert_5)
 
