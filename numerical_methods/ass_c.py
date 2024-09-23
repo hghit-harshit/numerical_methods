@@ -10,7 +10,7 @@ def read_matrix_and_vectors(file_name):
     b1 = data[5, :]   # first vector
     b2 = data[6, :]   # second vector
     return A, b1, b2
-
+#does this change in vscode
 # Perform power method to find largest eigenvalue
 def power_method(A, num_iterations=1000, tol=1e-9):
     n, _ = A.shape
